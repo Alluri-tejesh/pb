@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Paddy biding</title>
+  
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js">
+    
+  </script>
+  <body>
+    <div ng-app="" ng-init="Name='',pn='',in='',ad='',co=125">
+      <p>NAME:<input type="text" ng-model="Name" placeholder="Enter the name "></p>
+      <p>PHONE NUMEBR<input type="number" ng-model="pn" placeholder="Enter your Phone number"</p>
+      <p>INDUSTRY NAME:<input type="text" ng-model="in" placeholder="Enter INDUSTRY NAME"</p>
+      <p>Address:<input type="text" ng-model="ad" placeholder="Enter the Address"</p>
+      <p>COST:<input type="number" ng-model="co" placeholder="ENTER THE BID PRICE"</p>
+        <table>
+          <tr>
+            <th>NAME:</th>
+            <td>{{Name}}</td>
+          </tr>
+          <tr>
+            <th>PHONE NUMBER:</th>
+            <td>{{pn}}</td>
+          </tr>
+          <tr>
+            <th>INDUSTRY NAME</th>
+            <td>{{in}}</td>          
+          </tr>
+      </table>
+    </div>
+  </body>
+  </html>
